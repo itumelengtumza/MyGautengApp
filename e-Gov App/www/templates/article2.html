@@ -1,0 +1,27 @@
+<ion-view view-title="DEPARTMENT">
+  <ion-content>
+  <div class="card">
+    <a class="item item-text-wrap" ng-repeat="name in Dept" href="#/app/department/{{name.id}}">
+<div class="button-bar1">
+<p align="justify">{{name.name}}</p>
+</div><br/>
+<div class="button-bar">
+<p align="justify">{{name.content}}</p>
+</div><br/>
+<div class="button-bar2">
+<p align="justify">{{name.cont_heading}}</p>
+</div><br/>
+<div class="button-bar">
+<p align="justify">{{name.contact}}</p>
+</div><br/>
+<div class="button-bar">
+<p align="justify">{{name.contact3}}</p>
+</div><br/>
+<div class="button-bar">
+<p align="justify">{{name.contact2}}</p>
+</div>
+</a>
+
+</div>
+  </ion-content>
+</ion-view>

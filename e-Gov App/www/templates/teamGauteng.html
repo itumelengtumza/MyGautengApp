@@ -1,0 +1,18 @@
+<ion-view view-title="TEAM GAUTENG">
+  <ion-content>
+  <div class="card">
+    <a class="item item-text-wrap" ng-repeat="name in teamGauteng" href="#/app/teamGautengMore/{{name.id}}">
+<div class="button-bar">
+<img ng-src="{{name.image_path}}" class="imageS">
+</div><br/>
+<div class="button-bar">
+<p align="justify"><b>{{name.role}}</b></p>
+</div>
+<div class="button-bar">
+<p align="justify"><b>{{name.name}}</b></p>
+</div>
+</a>
+
+</div>
+  </ion-content>
+</ion-view>

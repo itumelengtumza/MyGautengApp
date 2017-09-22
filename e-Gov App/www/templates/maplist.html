@@ -1,0 +1,23 @@
+ <ion-view title="Near-By Places" cache-view="false">
+    <ion-nav-bar class="bar-positive colour-override">
+        <ion-nav-buttons side="left">
+            <button class="button back-button buttons  button-clear header-item" ui-sref="geolocation.map"><i class="ion-arrow-left-c custom-back-button-override"></i>
+            </button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+ 
+ <ion-content>
+  <div class="card">
+  <div class="item-text-wrap item" ng-repeat="n in nearby">
+  <h2><i class="ion-location custom-icon6"></i>
+  {{n.name}}</br>
+  {{n.destination}}
+  </h2>
+  <h3>{{n.distance}}km</h3>
+  </div>
+	
+  </div>
+
+
+  </ion-content>
+  

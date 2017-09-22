@@ -1,0 +1,20 @@
+ <ion-view title="Choose Types">
+    
+ 
+ <ion-content>
+  <div class="card">
+  <div class="item-text-wrap item" ng-repeat="list in lists">
+  <input type="checkbox" ng-model="active" ng-change="change(list, active)" />
+  {{list}}
+  </div>
+	
+  </div>
+
+
+  </ion-content>
+  <ion-nav-buttons>
+            <button class="button button-assertive" ui-sref="geolocation.map">
+			Go To Map  >>>
+            </button>
+        </ion-nav-buttons>
+  

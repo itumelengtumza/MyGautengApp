@@ -1,0 +1,15 @@
+<ion-view view-title="NEWS">
+  <ion-content>
+  <div class="card">
+    <a class="item item-text-wrap" ng-repeat="name in News" href="#/app/article1/{{name.id}}">
+<div class="button-bar">
+<img ng-src="{{name.Image_path}}" class="imageS">
+</div><br/>
+<div class="button-bar2">
+<p align="justify"><b>{{name.News_Title}}</b></p>
+</div>
+</a>
+
+</div>
+  </ion-content>
+</ion-view>

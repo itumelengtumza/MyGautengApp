@@ -1,0 +1,243 @@
+/*Home menu*/
+
+a {
+    text-decoration: none !important;
+	color:black !important;
+}
+
+
+.space{
+	
+	height: 20px;
+	}
+.space0{
+
+height: 30px;
+}
+.custom-iconF {
+  font-size: 40px;
+  color : red !important;
+}
+.custom-iconT {
+  font-size: 40px;
+  color : blue !important;
+}
+.custom-iconFB {
+  font-size: 40px;
+  color : blue !important;
+}
+.custom-iconInsta {
+  font-size: 40px;
+  color : black !important;
+}
+.custom-iconC{ 
+	
+  font-size: 40px;
+  color:#E7F057 !important;
+	}
+.custom-iconN{
+
+font-size: 40px;
+color:gold !important;
+}
+.custom-iconE{
+	
+  font-size: 40px;
+  color:green !important;
+  
+	}
+.custom-iconV{
+	
+  font-size: 40px;
+  color : #3853AC !important;
+	}
+.custom-iconB{
+	
+  font-size: 40px;
+  color : purple !important;
+	}
+.content{
+	background-image:url(../img/GautengBG.jpg);
+	color:#000000;
+	
+	
+	
+	}
+	.card{
+	background-color: #white;
+	border:0px;
+	}
+	
+.twitter-timeline{
+ 
+  display:block;
+  max-width: 300px;
+  height:400px;
+	}
+/*Left menu*/
+.custom-icon {
+  font-size: 25px;
+  color : red;
+}
+.custom-icon2 {
+  font-size: 23px;
+  color : Yellow;
+}
+.custom-icon3 {
+  font-size: 23px;
+  color : orange;
+}
+.custom-icon4 {
+  font-size: 23px;
+  color:lime;
+}
+.custom-icon5 {
+  font-size: 23px;
+  color : magenta;
+}
+.custom-icon6 {
+  font-size: 23px;
+  color : blue;
+}
+.bar{
+	background-color:rgb(35,31,32);
+	color:white;
+	size:10px;
+	}
+	/*custom is class added to ion-content*/
+
+.custom {
+  background-color:rgb(88,144,163); /* This sets the background color*/
+ }
+ .button-S{
+	 
+	 background-color:rgb(88,144,163) !important;
+	 color:white;
+	 }
+	 .bar-dark{
+		 
+	background-color:rgb(88,144,163) !important;
+	color:white; 
+		 
+		 }
+			 
+/*social Media*/
+
+/*Interact*/
+
+select {
+	width:100%;
+	padding:.6rem 0;
+	color:black;
+	outline: 0px;
+	border:0px;
+}
+
+.valueSelected {
+	color:black;
+}
+
+.valueNotSelected {
+	color:#BEBEBE;
+}
+		
+/*Service page*/	
+
+    .E{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;;
+	
+	}
+	.HO{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;
+	}
+	.W{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;
+	}
+	.P{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;
+	}
+	
+	/*Government*/
+	
+	.E{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;
+	
+	}
+	.HO{
+	
+	background-color:rgb(88,144,163) !important;
+	color:white !important;
+	}
+	.W{
+	
+	background-color:rgb(88,144,163)!important;
+	color:white !important;
+	}
+	.P{
+	
+	background-color:rgb(88,144,163)) !important;
+	color:white !important;
+	}
+	
+	.a hover{
+			background-color:rgb(210,35,45)) !important;
+
+		}
+	
+/*Set the background to transparent for ion-item*/
+.custom .item {
+  background-color: transparent;
+  border:none;   /*Removes all borders*/
+  border-top: 1px solid;   /*Top Border for each menu item*/
+  border-bottom:2px solid;   /*Bottom border for each menu item*/
+  border-color: #ffffff;   /*Sets colors for top and bottom border*/
+  color: white;    /*Text color for each item*/
+}
+
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  border-bottom: 2px solid #ffffff;
+}
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+/*Just makes the type white*/
+.custom h2,
+.custom h3,
+.custom p,
+.custom a {
+  color: white;  /*Text color for each item, overrides the color property above*/
+}
+
+/*This is for map*/
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.tabs-fullwidth .tab-item { max-width: 100%; }
+
+.list-marker {float:left;}
+
+/* news & campaigns images */	
+.imageS{
+	width:100%;
+	height:200px;
+	
+	}

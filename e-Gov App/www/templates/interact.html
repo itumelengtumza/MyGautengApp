@@ -1,0 +1,26 @@
+<ion-view view-title="INTERACT">
+  <ion-content padding="'true'" ng-controller="addFeedbackCtrl">
+<form class="list" ng-model="form">
+		<ion-list>
+			<label class="item item-input">
+				<input ng-model="user.name" type="text" placeholder="Name" >
+			</label>
+			<label class="item item-input">
+				<input ng-model="user.email" type="email" placeholder="Email" >
+			</label>
+			<label class="item item-input">
+				<select ng-class=selectedClass ng-model="lists.selectedValue" ng-change="update(lists.selectedValue)" >
+				  <option ng-repeat="list in lists" value="{{list}}">{{list}}</option>
+				</select>
+			</label>
+			<label class="item item-textArea">
+				<textarea  ng-model="user.comments" placeholder="Comments"></textarea>
+			</label>
+		</ion-list>
+		<div class="spacer" style="height: 40px;"></div>
+		
+		<button  class="button button-stable button-block " ng-click="addFeedback()">Submit</button>
+		<button  class="button button-stable button-block " ng-click="resetTextFields()">Reset</button>
+	</form>
+ </ion-content>
+</ion-view>

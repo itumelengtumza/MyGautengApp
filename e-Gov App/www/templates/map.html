@@ -1,0 +1,23 @@
+<ion-view title="Near-By Places" >
+    <ion-nav-bar class="bar-positive colour-override">
+        <ion-nav-buttons side="left">
+            <button class="button back-button buttons  button-clear header-item" ui-sref="app.home"><i class="ion-arrow-left-c custom-back-button-override"></i>
+            </button>
+        </ion-nav-buttons>
+		<ion-nav-buttons side="right">
+            
+				<label clas="item item-input item select">
+					<select ng-model="lists.selectedValue" ng-change="update(lists.selectedValue)">
+						<option ng-repeat="list in lists" value="{{list}}">{{list}}</option>
+					</select>
+				</label>
+            
+        </ion-nav-buttons>
+    </ion-nav-bar>
+	<ion-content>
+
+	
+		<div id="map" data-tap-disabled="true"></div>
+	</ion-content>
+</ion-view>
+
